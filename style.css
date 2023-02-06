@@ -1,7 +1,68 @@
-.mito {
-  width: 70px;
-  height: 100px;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.pt1{
+  position: relative;
+  left: 120px;
+  }
+
+  .pt2{
+  position: absolute;
+  left: 720px;
+  }
+
+  .pt3{
+  position: relative;
+  left: 120px;
+  }
+
+  .line1{
+  	padding-top: 50px;
+  }
+
+.line2{
+  	padding-bottom: 80px;
+  }
+
+    .pt4{
+  position: absolute;
+  left: 600px;
+  }
+
+    .line3{
+  	padding-top: 50px;
+  	padding-bottom: 80px;
+  }
+
+  .pt5{
+  position: relative;
+  left:120px;
+  }
+
+  .pt6{
+  position: absolute;
+  left:700px;
+  }
+
+      .line4{
+  	padding-top: 50px;
+  	padding-bottom: 80px;
+  }
+
+  .pt7{
+  position: relative;
+  left: 70px;
+  }
+
+  .pt8{
+  position: absolute;
+  left:750px;
+  }
+
+      .line5{
+  	padding-top: 50px;
+  	padding-bottom: 80px;
+  }
+
 body {
   background-image: url('bg.jpg');
   background-repeat: no-repeat;
