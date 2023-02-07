@@ -1,69 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-
-.pt1{
-  position: relative;
-  left: 120px;
-  }
-
-  .pt2{
-  position: absolute;
-  left: 720px;
-  }
-
-  .pt3{
-  position: relative;
-  left: 120px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Reenie+Beanie&display=swap');
 
   .line1{
+  	font-size: 150%;
+  	font-family:"Reenie Beanie";
   	padding-top: 50px;
   }
 
 .line2{
+	font-size: 130%;
+	font-family:"Reenie Beanie";
   	padding-bottom: 80px;
   }
 
-    .pt4{
-  position: absolute;
-  left: 600px;
-  }
 
     .line3{
+    	font-size: 200%;
+    	font-family:"Reenie Beanie";
   	padding-top: 50px;
   	padding-bottom: 80px;
   }
 
-  .pt5{
-  position: relative;
-  left:120px;
-  }
-
-  .pt6{
-  position: absolute;
-  left:700px;
-  }
 
       .line4{
+      	font-size: 130%;
+      	font-family:"Reenie Beanie";
   	padding-top: 50px;
   	padding-bottom: 80px;
-  }
-
-  .pt7{
-  position: relative;
-  left: 70px;
-  }
-
-  .pt8{
-  position: absolute;
-  left:750px;
   }
 
       .line5{
+      	font-size: 200%;
+      	color: white;
+      	font-family:"Reenie Beanie";
   	padding-top: 50px;
   	padding-bottom: 80px;
+
   }
 
+  a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 body {
+text-align: center;
   background-image: url('bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
